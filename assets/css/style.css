@@ -406,3 +406,12 @@ a {
     background: linear-gradient(180deg, #019efb, #0176dc);
 
 }
+
+@media (max-width: 767px) {
+  .wp-content-cskh .col-4 {
+    margin-bottom: 16px; /* hoặc giá trị bạn muốn */
+  }
+  .wp-content-cskh {
+    row-gap: 16px; /* nếu dùng display: flex hoặc grid */
+  }
+}
