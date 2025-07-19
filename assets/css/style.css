@@ -409,10 +409,11 @@ a {
 
 @media (max-width: 767px) {
   .wp-content-cskh .col-4 {
-    margin-bottom: 16px;
+    margin-bottom: 6px; /* giảm khoảng cách giữa các hàng nút */
+    padding: 8px;
   }
   .wp-content-cskh {
-    row-gap: 16px;
+    row-gap: 6px; /* nếu có dùng gap, giảm xuống */
   }
   
   /* Tăng kích thước các nút chỉ ở mobile */
