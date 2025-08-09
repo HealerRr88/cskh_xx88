@@ -397,9 +397,10 @@ a {
 
 @media screen and (max-width: 370px) {
     .item-link {
-        width: 30%;
+        width: 100%;
     }
 }
+
 
 .btn-function-sp {
 
@@ -427,4 +428,20 @@ a {
   .wp-content-cskh .col-4 {
     padding: 8px;
   }
+}
+@media screen and (max-width: 768px) and (max-width: 1024) {
+    .item-link {
+        width: 100%;
+    }
+    .item-link .speed {
+    font-size: 13px;
+    color: #585858;
+    font-weight: 700;
+    padding: 0px;
+    position: absolute;
+    right: 4px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    top: 6px;
+}
 }
